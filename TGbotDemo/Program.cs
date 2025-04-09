@@ -10,7 +10,7 @@ using Telegram.Bot.Types.Enums;
 class Program
 {
     private static readonly string token = "7403287268:AAGAR7kFsl6-pUVIlXJNzo1tvilettPhBrU";
-    private static readonly long adminId = 7502335499; // O‘zingizning Telegram ID`ingizni shu yerga yozing
+    private static readonly long adminId = 7502335499; 
     private static ITelegramBotClient botClient = new TelegramBotClient(token);
 
     static async Task Main()
